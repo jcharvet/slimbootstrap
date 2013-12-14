@@ -44,6 +44,34 @@ $c['db.pdo'] = function ($c) {
     return $db;
 };
 
+$c['db.orm'] = function ($c) {
+    $config = $c['config'];
+    switch (substr($config['db.dsn'], 0, 5)) {
+        // MySQL database
+        case 'mysql':
+            $db = new \PDO(
+                $config['db.dsn'],
+                $config['db.username'],
+                $config['db.password'],
+                array(
+                    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                    PDO::MYSQL_ATTR_INIT_COMMAND => 'set names utf8mb4'
+                )
+            );
+            break;
+
+        // SQLite database
+        case 'sqlit':
+            $db = new PDO($config['db.dsn']);
+            $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            break;
+
+        default:
+            throw new UnexpectedValueException('Unknown database');
+    }
+    return $db;
+};
+
 
 //$c['db'] = function ($c) {
 //    return new NotORM($c['db.pdo']);
