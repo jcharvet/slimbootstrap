@@ -12,6 +12,16 @@ $app->get(
 );
 
 $app->get('/users', function () use ($app, $c) {
+    /* create a new user */
+    $user = new Users();
+    $user->email = 'John@doe.com';
+    $user->password = 'test1234';
+    $user->username = 'John';
+    $user->save();
+    echo $user->toJson();
+
+    echo "<br />";
+
     /* Get all users in table */
     $users = Users::all();
     echo $users->toJson();
@@ -21,14 +31,4 @@ $app->get('/users', function () use ($app, $c) {
     /* get user by key */
     $users = Users::find(1);
     echo $users->toJson();
-
-    echo "<br />";
-
-    /* create a new user */
-    $user = new Users();
-    $user->email = 'cedric@selleriedesormes.com';
-    $user->password = 'test1234';
-    $user->username = 'Cedric';
-    $user->save();
-    echo $user->toJson();
 });
