@@ -45,8 +45,8 @@ $c['db.pdo'] = function ($c) {
 };
 
 
-$c['db'] = function ($c) {
-    return new NotORM($c['db.pdo']);
-};
+//$c['db'] = function ($c) {
+//    return new NotORM($c['db.pdo']);
+//};
 
 return $c;
