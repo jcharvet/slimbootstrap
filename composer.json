@@ -5,7 +5,8 @@
         "slim/slim": "*",
         "slim/views": "*",
         "twig/twig": "*",
-        "illuminate/database": "*"
+        "illuminate/database": "*",
+        "dhorrigan/capsule": "*"
     },
 
     "require-dev": {
@@ -15,7 +16,8 @@
     "autoload": {
         "classmap": [
             "include/",
-            "lib/"
+            "lib/",
+            "app/models"
         ]
     }
 }

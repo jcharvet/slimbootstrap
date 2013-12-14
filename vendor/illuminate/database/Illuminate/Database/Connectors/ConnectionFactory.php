@@ -1,4 +1,5 @@
-<?php namespace Illuminate\Database\Connectors;
+<?php
+namespace Illuminate\Database\Connectors;
 
 use PDO;
 use Illuminate\Container\Container;

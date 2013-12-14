@@ -19,5 +19,7 @@ return array(
 
 // Application paths
     'path.routes'         => $basedir . 'routes/',
-    'path.templates'      => $basedir . 'templates/'
+    'path.templates'      => $basedir . 'templates/',
+    'path.models'         => $basedir . 'models/',
+    'path.libraries'      => $basedir . 'lib/',
 );

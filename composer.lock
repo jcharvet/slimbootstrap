@@ -3,8 +3,48 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c41f2454adbcc937843dac9023117013",
+    "hash": "bfb226d293f20ced3e7c6eb22a52e7f7",
     "packages": [
+        {
+            "name": "dhorrigan/capsule",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/philsturgeon/capsule.git",
+                "reference": "3d6ffee4e33e7af8d9e28374e47797e1f2fabc89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/philsturgeon/capsule/zipball/3d6ffee4e33e7af8d9e28374e47797e1f2fabc89",
+                "reference": "3d6ffee4e33e7af8d9e28374e47797e1f2fabc89",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "4.0.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Capsule": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Dan Horrigan",
+                    "email": "dan@dhorrigan.com",
+                    "homepage": "http://dhorrigan.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A simple wrapper class for the Laravel Database package.  This is only to be used outside of a Laravel application.",
+            "keywords": [
+                "database",
+                "laravel"
+            ],
+            "time": "2013-01-31 18:52:39"
+        },
         {
             "name": "illuminate/container",
             "version": "v4.0.10",
@@ -215,16 +255,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "b0450b539d1567b2acee6467b6b323a8547b5559"
+                "reference": "03ede52a1f360441b5826cb8a798e0d0a919731f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b0450b539d1567b2acee6467b6b323a8547b5559",
-                "reference": "b0450b539d1567b2acee6467b6b323a8547b5559",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/03ede52a1f360441b5826cb8a798e0d0a919731f",
+                "reference": "03ede52a1f360441b5826cb8a798e0d0a919731f",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +297,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2013-11-23 15:22:05"
+            "time": "2013-12-05 04:13:29"
         },
         {
             "name": "pimple/pimple",
@@ -353,22 +393,26 @@
         },
         {
             "name": "slim/views",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "target-dir": "Slim/Views",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeguy/Slim-Views.git",
-                "reference": "d5eca1c0932aadf7255d83f3ed02ffc07c3c8297"
+                "reference": "8c7e0f3067e5e10b7b4ca98f29bdef8d5cfe5371"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim-Views/zipball/d5eca1c0932aadf7255d83f3ed02ffc07c3c8297",
-                "reference": "d5eca1c0932aadf7255d83f3ed02ffc07c3c8297",
+                "url": "https://api.github.com/repos/codeguy/Slim-Views/zipball/8c7e0f3067e5e10b7b4ca98f29bdef8d5cfe5371",
+                "reference": "8c7e0f3067e5e10b7b4ca98f29bdef8d5cfe5371",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "slim/slim": ">=2.0.0"
+                "slim/slim": ">=2.4.0"
+            },
+            "suggest": {
+                "smarty/smarty": "Smarty templating system",
+                "twig/twig": "Twig templating system"
             },
             "type": "library",
             "autoload": {
@@ -392,27 +436,27 @@
                     "homepage": "http://www.joshlockhart.com/"
                 }
             ],
-            "description": "Twig View Parser package for the Slim Framework",
+            "description": "Smarty and Twig View Parser package for the Slim Framework",
             "homepage": "http://github.com/codeguy/Slim-Views",
             "keywords": [
                 "extensions",
                 "slimphp",
                 "templating"
             ],
-            "time": "2013-07-10 07:34:17"
+            "time": "2013-12-08 10:18:35"
         },
         {
             "name": "twig/twig",
-            "version": "v1.14.2",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64"
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ca445842fcea4f844d68203ffa2d00f5e3cdea64",
-                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/85e4ff98000157ff753d934b9f13659a953f5666",
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666",
                 "shasum": ""
             },
             "require": {
@@ -421,7 +465,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -448,7 +492,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-30 08:20:53"
+            "time": "2013-12-06 07:47:10"
         }
     ],
     "packages-dev": [

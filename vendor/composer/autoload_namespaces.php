@@ -16,4 +16,5 @@ return array(
     'Illuminate\\Database' => array($vendorDir . '/illuminate/database'),
     'Illuminate\\Container' => array($vendorDir . '/illuminate/container'),
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
+    'Capsule' => array($vendorDir . '/dhorrigan/capsule/lib'),
 );

@@ -1,7 +1,10 @@
 <?php
+// error_reporting(1);
+// error_reporting(E_ALL);
+
 require_once '../vendor/autoload.php';
 
-// depedency injection container
+// dependency injection container
 $c = require '../include/services.php';
 
 // sane runtime environment
@@ -18,7 +21,10 @@ session_start();
 $app = $c['app'];
 
 foreach (glob($config['path.routes'] . '*php') as $file) {
-    require_once $file;
+// echo "$file size " . filesize($file) . "\n";
+ require_once $file;
 }
+
+//include $config['path.routes'] . 'app.php';
 
 $app->run();
