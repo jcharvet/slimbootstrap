@@ -8,4 +8,4 @@ Bootstrap for a basic PHP application using Slim, Pimple, Twig, and Eloquent
  - Routing defined in `routes` directory - files inherit `$app` (Slim instance) and `$c`
    (Pimple container) when included into `public/index.php`
  - Resources/services in Pimple DI container defined in `include/services.php`
- - `composer.json` instructs Composer to build classmap from `include/` and `lib/`
+ - `composer.json` instructs Composer to build classmap from `include/`, `lib/` and `models/`
