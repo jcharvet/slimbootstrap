@@ -1,5 +1,7 @@
 # SlimBootstrap
 
+based on tboronczyk/SlimBootstrap
+
 Bootstrap for a basic PHP application using Slim, Pimple, Twig, and Eloquent
 
  - Copy `config/config.php.example` to `config/config.php` and supply values
