@@ -8,7 +8,6 @@ $c = new Pimple();
 
 $c['config'] = require dirname(__FILE__) . '/../config/config.php';
 
-
 $c['app'] = $c->share(function ($c) {
     $app = new Slim(array(
         'view' => new Twig(),
@@ -43,6 +42,11 @@ $c['db.pdo'] = function ($c) {
             throw new UnexpectedValueException('Unknown database');
     }
     return $db;
+};
+
+
+$c['db'] = function ($c) {
+    return new NotORM($c['db.pdo']);
 };
 
 return $c;

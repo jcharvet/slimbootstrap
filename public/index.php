@@ -16,9 +16,9 @@ session_start();
 
 // load routes and run application
 $app = $c['app'];
-//foreach (glob($config['path.routes'] . '*php') as $file) {
-//    require_once $file;
-//}
-require_once $config['path.routes'] . 'employers.php';
+
+foreach (glob($config['path.routes'] . '*php') as $file) {
+    require_once $file;
+}
 
 $app->run();
