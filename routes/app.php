@@ -31,4 +31,13 @@ $app->get('/users', function () use ($app, $c) {
     /* get user by key */
     $users = Users::find(1);
     echo $users->toJson();
+
+    echo Users::where('id', '=', 1)->update(array('active' => 1));
+
+    echo "<br />";
+
+    /* Relationship */
+    /* belongsTo */
+    $users = Users::with('user_profile')->where('id', '=', 1)->get();
+    echo $users->toJson();
 });
