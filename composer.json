@@ -17,7 +17,7 @@
         "classmap": [
             "include/",
             "lib/",
-            "app/models"
+            "models/"
         ]
     }
 }
