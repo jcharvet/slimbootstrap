@@ -15,7 +15,7 @@ return array(
 // MySQL
     'db.dsn'                => 'mysql:host=localhost;dbname=test',
     'db.username'           => 'root',
-    'db.password'           => '7y3yfjtk',
+    'db.password'           => 'rot',
 
 // Application paths
     'path.routes'           => $basedir . 'routes/',
