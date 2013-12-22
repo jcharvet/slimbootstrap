@@ -1,16 +1,11 @@
-RewriteEngine on
+RewriteEngine On
+
+# Some hosts may require you to use the `RewriteBase` directive.
+# If you need to use the `RewriteBase` directive, it should be the
+# absolute physical path to the directory that contains this htaccess file.
+#
+# RewriteBase /
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.php
+RewriteRule ^ index.php [QSA,L]
 
-Options -Indexes
-
-<FilesMatch "\.(html|htm|js|css|php)$">
-FileETag None
-<ifModule mod_headers.c>
-Header unset ETag
-Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
-Header set Pragma "no-cache"
-Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
-</ifModule>
-</FilesMatch>

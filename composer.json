@@ -1,12 +1,12 @@
 {
     "require": {
         "php": ">=5.3",
-        "pimple/pimple": "*",
         "slim/slim": "*",
         "slim/views": "*",
         "twig/twig": "*",
         "illuminate/database": "*",
-        "dhorrigan/capsule": "*"
+        "dhorrigan/capsule": "*",
+        "monolog/monolog": "1.*"
     },
 
     "require-dev": {

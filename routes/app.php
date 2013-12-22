@@ -11,7 +11,21 @@ $app->get(
     }
 );
 
+$app->get(
+    '/test',
+    function () use ($app, $c) {
+        $app->view()->setData(array(
+            'title' => 'Hello World TEST',
+            'body'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        ));
+        $app->render('index.html');
+    }
+);
+
 $app->get('/users', function () use ($app, $c) {
+    // Sample log message
+   // $app->log->info("Slimboostrap '/users' route");
+
     /* create a new user */
     $user = new Users();
     $user->email = 'John@doe.com';

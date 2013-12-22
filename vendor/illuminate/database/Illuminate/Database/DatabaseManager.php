@@ -33,11 +33,14 @@ class DatabaseManager implements ConnectionResolverInterface {
 	 */
 	protected $extensions = array();
 
-    /**
-     * @param $app
-     * @param ConnectionFactory $factory
-     */
-    public function __construct($app, ConnectionFactory $factory)
+	/**
+	 * Create a new database manager instance.
+	 *
+	 * @param  \Illuminate\Foundation\Application  $app
+	 * @param  \Illuminate\Database\Connectors\ConnectionFactory  $factory
+	 * @return void
+	 */
+	public function __construct($app, ConnectionFactory $factory)
 	{
 		$this->app = $app;
 		$this->factory = $factory;

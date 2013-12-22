@@ -1,6 +1,6 @@
 <?php
-// error_reporting(1);
-// error_reporting(E_ALL);
+ error_reporting(1);
+ error_reporting(E_ALL);
 
 require_once '../vendor/autoload.php';
 
@@ -8,7 +8,7 @@ require_once '../vendor/autoload.php';
 $c = require '../include/services.php';
 
 // sane runtime environment
-$config = $c['config'];
+//$config = $c['config'];
 error_reporting($config['php.error_reporting']);
 ini_set('display_errors', $config['php.display_errors']);
 ini_set('log_errors', $config['php.log_errors']);
@@ -18,7 +18,6 @@ date_default_timezone_set($config['php.date.timezone']);
 session_start();
 
 // load routes and run application
-$app = $c['app'];
 
 foreach (glob($config['path.routes'] . '*php') as $file) {
 // echo "$file size " . filesize($file) . "\n";

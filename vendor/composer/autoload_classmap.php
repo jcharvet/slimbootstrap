@@ -352,4 +352,6 @@ return array(
     'PHP_Token_XOR_EQUAL' => $vendorDir . '/phpunit/php-token-stream/PHP/Token.php',
     'PHP_Token_YIELD' => $vendorDir . '/phpunit/php-token-stream/PHP/Token.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/Text/Template.php',
+    'User_Profile' => $baseDir . '/models/Users.php',
+    'Users' => $baseDir . '/models/Users.php',
 );

@@ -1,7 +1,834 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c257425-23c9-425c-84fa-b49bc59eebbb" name="Default" comment="">
+    <list default="true" id="3c257425-23c9-425c-84fa-b49bc59eebbb" name="Default" comment="removed pimple usage">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bin/phpunit" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/include_paths.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/container/Illuminate/Container/Container.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/container/Illuminate/Container/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Capsule/Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/ConnectionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/ConnectionResolver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/ConnectionResolverInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/PostgresConnector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/SQLiteConnector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/SqlServerConnector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/BaseCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/InstallCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/MakeCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/MigrateCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/RefreshCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/ResetCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/Migrations/RollbackCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/SeedCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Builder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/MassAssignmentException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/ModelNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/BelongsTo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasMany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasOne.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphMany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphOne.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphOneOrMany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/Pivot.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/Relation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/DatabaseMigrationRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/Migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/MigrationCreator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/MigrationRepositoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/Migrator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/stubs/blank.stub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/stubs/create.stub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Migrations/stubs/update.stub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/MySqlConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/PostgresConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Builder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Grammars/Grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Grammars/MySqlGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Grammars/PostgresGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Grammars/SQLiteGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/JoinClause.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Processors/PostgresProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Processors/Processor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Query/Processors/SqlServerProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/SQLiteConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Blueprint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Builder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/Grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/MySqlGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/PostgresGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Schema/MySqlBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/SeedServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Seeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/SqlServerConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/events/Illuminate/Events/Dispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/events/Illuminate/Events/EventServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/events/Illuminate/Events/Subscriber.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/events/Illuminate/Events/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Contracts/ArrayableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Contracts/JsonableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Contracts/MessageProviderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Contracts/RenderableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Contracts/ResponsePreparerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/App.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Artisan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Crypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/DB.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Facade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Hash.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Paginator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Redis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Route.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Schema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/URL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Facades/View.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Fluent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/MessageBag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/NamespacedItemResolver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Pluralizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/SerializableClosure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/ServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/Str.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Illuminate/Support/helpers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/history.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.src.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/AddTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/ComparisonTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/ConstructTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/CopyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/CreateFromDateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/CreateFromFormatTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/CreateFromTimeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/CreateFromTimestampTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/CreateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/DayOfWeekModifiersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/DiffTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/FluidSettersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/GettersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/InstanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/IsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/IssetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/NowAndOtherStaticHelpersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/SettersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/StartEndOfTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/StringsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/SubTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/TestFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/tests/TestingAidsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Driver/Xdebug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Clover.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/coverage_bar.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/dashboard.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/directory.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/directory_item.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/file.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/file_item.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/method_item.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node/Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node/Iterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/PHP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Util.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Util/InvalidArgumentHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Version.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/FilterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report/CloverTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report/FactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/UtilTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/BankAccount-clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/BankAccount.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/BankAccountTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageClassExtendedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageFunctionParenthesesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageFunctionParenthesesWhitespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageFunctionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageMethodOneLineAnnotationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageMethodParenthesesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageMethodParenthesesWhitespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageMethodTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNoneTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNotPrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNotProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNotPublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNothingTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveragePrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveragePublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageTwoDefaultClassAnnotations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveredClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveredFunction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageClassExtendedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageCoversClassPublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageCoversClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageMethodTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotPrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotPublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoveragePrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoveragePublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoveredClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NotExistingCoveredElementTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/class-with-anonymous-function-clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/ignored-lines-clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_class_and_anonymous_function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_ignore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_namespace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_oneline_annotations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_without_ignore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_without_namespace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/travis-ci.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/scripts/auto_append.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/scripts/auto_prepend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/ChangeLog.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Facade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/ChangeLog.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/Text/Template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/Text/Template/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/Text/Template/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/PHP/Timer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/PHP/Timer/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/PHP/Timer/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/Tests/TimerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream/CachingFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/ClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/ClosureTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/FunctionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/IncludeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/InterfaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/NamespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/TokenTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/classExtendsNamespacedClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/classInNamespace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/classInScopedNamespace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/closure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/issue19.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/issue30.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingBraces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingNonBraceSyntax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/ChangeLog.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Identity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/InvocationMocker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Match.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/MethodNameMatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Namespace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/ParametersMatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Stub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_class.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_clone.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_object_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_static_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/trait_class.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/unmocked_clone.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/wsdl_class.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/wsdl_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invocation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invocation/Object.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invocation/Static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/InvocationMocker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invokable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/AnyInvokedCount.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/AnyParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/Invocation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedAtIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedAtLeastOnce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedCount.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/MethodName.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/Parameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/StatelessInvocation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/MockBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/MockObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ConsecutiveCalls.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/MatcherCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/Return.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnArgument.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnSelf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnValueMap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Verifiable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/GeneratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/Invocation/ObjectTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/Invocation/StaticTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_dont_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_implementing_interface_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_implementing_interface_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_partial.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/interface.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/invocation_object_clone_object.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/invocation_static_clone_object.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_dont_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_implementing_interface_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_implementing_interface_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_partial.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_interface.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/nonexistent_class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/nonexistent_class_with_namespace.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/nonexistent_class_with_namespace_starting_with_separator.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/wsdl_class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/wsdl_class_namespace.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/wsdl_class_partial.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObjectTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/AbstractMockTestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/AnInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/FunctionCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/GoogleSearch.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/MethodCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/MethodCallbackByReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/Mockable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/PartialMockTestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/SomeClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/StaticMockTestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/travis-ci.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/GroupTestSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/PhptTestSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/RepeatedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/TestDecorator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/TicketListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert/Functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert/Functions.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/AssertionFailedError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/DOMDocument.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Double.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/MockObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Numeric.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Object.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Scalar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/SplObjectStorage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/ComparatorFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/ComparisonFailure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/And.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ArrayHasKey.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Attribute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ClassHasAttribute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ClassHasStaticAttribute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Composite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Count.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ExceptionCode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ExceptionMessage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/FileExists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/GreaterThan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsAnything.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsEmpty.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsFalse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsIdentical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsInstanceOf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsJson.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsNull.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsTrue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/JsonMatches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/JsonMatches/ErrorMessageProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/LessThan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Not.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ObjectHasAttribute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Or.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/PCREMatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/SameSize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringContains.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringEndsWith.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringMatches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringStartsWith.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/TraversableContains.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/TraversableContainsOnly.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Xor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error/Deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error/Notice.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error/Warning.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/ExpectationFailedException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/IncompleteTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/IncompleteTestError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/OutputError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Process/TestCaseMethod.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SelfDescribing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SkippedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SkippedTestError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SkippedTestSuiteError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SyntheticError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestFailure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite/DataProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Warning.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/BaseTestRunner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/StandardTestSuiteLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/TestSuiteLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/Version.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/TextUI/ResultPrinter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/DeprecatedFeature.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/DeprecatedFeature/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Diff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/ErrorHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Fileloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Getopt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/GlobalState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/InvalidArgumentHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Log/JSON.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Log/JUnit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Log/TAP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/PHP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/PHP/Default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/PHP/Windows.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Printer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/NamePrettifier.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/ResultPrinter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/ResultPrinter/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/ResultPrinter/Text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestSuiteIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/XML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Extensions/RepeatedTestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/Assert/FunctionsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/AssertTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/ComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/Constraint/JsonMatches/ErrorMessageProviderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/Constraint/JsonMatchesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/ConstraintTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/SuiteTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestCaseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestFailureTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestImplementorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestListenerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/1021.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/1021/Issue1021Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/523.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/523/Issue523Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/578.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/578/Issue578Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/684.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/684/Issue684Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/ChildSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/OneTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/ParentSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/TwoTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/244.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/244/Issue244Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/322.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/322/Issue322Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/322/phpunit322.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/433.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/433/Issue433Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/445.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/445/Issue445Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/498.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/498/Issue498Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/503.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/503/Issue503Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/581.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/581/Issue581Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/74.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/74/Issue74Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/74/NewException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/765.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/765/Issue765Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/863.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Runner/BaseTestRunnerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/abstract-test-class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/concrete-test-class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dataprovider-log-xml-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dataprovider-log-xml.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dataprovider-testdox.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/debug.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/default-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/default.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies2-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies2.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies3-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies3.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/empty-testcase.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/exception-stack.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/exclude-group-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/exclude-group.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/failure-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/failure.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/fatal-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/fatal.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-class-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-method-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-method.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-no-results.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/group-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/group.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/help.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/help2.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/list-groups.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/log-json.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/log-tap.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/log-xml.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/strict-incomplete.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/strict-isolation.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/strict.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/tap.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/test-suffix-multiple.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/test-suffix-single.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/testdox-html.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/testdox-text.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/testdox.phpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/ClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/ConfigurationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/DiffTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/TestDox/NamePrettifierTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/TestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/TypeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/XMLTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/AbstractTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Author.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/BankAccount.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/BankAccountTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/BankAccountTest.test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Book.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Calculator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ChangeCurrentWorkingDirectoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ClassWithNonPublicAttributes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ClassWithToString.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ConcreteTest.my.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ConcreteTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DataProviderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DependencyFailureTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DependencySuccessTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DependencyTestSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DoubleTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/EmptyTestCaseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInAssertPostConditionsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInAssertPreConditionsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInSetUpTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInTearDownTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionNamespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionStack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Failure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/FailureTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/FatalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/IncompleteTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/InheritedTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/JsonData/arrayObject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/JsonData/simpleObject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/JsonData/simpleObject2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/MockRunner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/MultiDependencyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NoArgTestCaseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NoTestCaseClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NoTestCases.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NonStatic.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NotPublicTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NotVoidTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NothingTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/OneTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/OutputTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/OverrideTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/RequirementsClassDocBlockTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/RequirementsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/SampleClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/SelectorAssertionsFixture.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Singleton.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/StackTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Struct.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Success.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/TemplateMethodsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/TestIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ThrowExceptionTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ThrowNoExceptionTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/WasRun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/configuration.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/configuration_xinclude.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/expectedFileFormat.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/foo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureAttributesAreSameButValuesAreNot.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureExpected.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureIgnoreTextNodes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureIsSameButDataIsNot.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureWrongNumberOfAttributes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureWrongNumberOfNodes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/PHPCS/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/assertions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/phar-autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/travis-ci.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer/bin/phpunit" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpdox.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/DumpException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ParseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Inline.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/DumperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsAnchorAlias.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBasicTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBlockMapping.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsDocumentSeparator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsErrorTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFlowCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFoldedScalars.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsTypeTransfers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/embededPhp.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/escapedCharacters.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/index.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfComments.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfMergeKey.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfObjects.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfQuotes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/unindentedCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/InlineTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParseExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/YamlTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Unescaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/phpunit.xml.dist" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/app.php" afterPath="$PROJECT_DIR$/routes/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/services.php" afterPath="$PROJECT_DIR$/include/services.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -23,6 +850,11 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="test">
@@ -31,10 +863,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="465">
+            <state line="24" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="23" selection-start="42" selection-end="42" vertical-scroll-proportion="0.033783782" vertical-offset="0" max-vertical-offset="888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="15" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -43,7 +893,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="540">
+            <state line="19" column="34" selection-start="537" selection-end="537" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -52,61 +902,16 @@
       <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="445" selection-end="445" vertical-scroll-proportion="-3.0833333" vertical-offset="181" max-vertical-offset="735">
+            <state line="17" column="40" selection-start="409" selection-end="409" vertical-scroll-proportion="-9.25" vertical-offset="33" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpunit.xml.dist" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10380623" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Capsule/Manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="20" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0" vertical-offset="1905" max-vertical-offset="3960">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Users.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Users.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/mysql.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="32" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseManager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="26" selection-start="5014" selection-end="5014" vertical-scroll-proportion="0.0" vertical-offset="3030" max-vertical-offset="3720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeedCommand.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/SeedCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="25" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1485">
+            <state line="22" column="58" selection-start="715" selection-end="715" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -115,7 +920,28 @@
       <file leaf-file-name="services.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="3" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1470">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/app.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -139,22 +965,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/logs/errors.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/vendor/slim/views/Slim/Views/Twig.php" />
         <option value="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" />
-        <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/include/services.php" />
         <option value="$PROJECT_DIR$/models/Users.php" />
         <option value="$PROJECT_DIR$/db/mysql.sql" />
-        <option value="$PROJECT_DIR$/routes/app.php" />
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/tests/bootstrap.php" />
+        <option value="$PROJECT_DIR$/logs/README.md" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/routes/app.php" />
+        <option value="$PROJECT_DIR$/public/index2.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/include/services.php" />
+        <option value="$PROJECT_DIR$/logs/app.log" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -166,10 +992,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1644" />
-    <option name="y" value="85" />
-    <option name="width" value="1260" />
-    <option name="height" value="747" />
+    <option name="x" value="1280" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -197,6 +1023,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,23 +1038,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SlimBootstrap" />
+              <option name="myItemId" value="slimbootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slimbootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slimbootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="/Applications/MAMP_2013-10-14_04-57-54/bin/php/php5.5.3/bin" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig" serverName="192.168.56.101" serverId="4701fd32-ce91-4ac1-b52e-67ff606d890a">
     <servers>
@@ -285,6 +1126,12 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d33732e3-1ecf-4645-bc85-e24d2645757d" server_name="Digital Hosting">
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.test" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.Users.php" />
@@ -332,19 +1179,31 @@
       <created>1387056811565</created>
       <updated>1387056811573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setup unit tests">
+      <created>1387668939533</created>
+      <updated>1387668939533</updated>
+    </task>
+    <task id="LOCAL-00005" summary="setup unit tests">
+      <created>1387668969389</created>
+      <updated>1387668969389</updated>
+    </task>
+    <task id="LOCAL-00006" summary="setup unit tests">
+      <created>1387669516692</created>
+      <updated>1387669516692</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1644" y="85" width="1260" height="747" extended-state="0" />
+    <frame x="1280" y="22" width="1920" height="1058" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17874794" sideWeight="0.6709062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24332978" sideWeight="0.6709062" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -372,82 +1231,16 @@
     <MESSAGE value="rebuild vendor" />
     <MESSAGE value="fixed&#10;`Strict Standards: Declaration of Slim\Views\Twig::render() should be compatible with Slim\View::render($template, $data = NULL) in /app/vendor/slim/views/Slim/Views/Twig.php on line 83`&#10;&#10;to read public function render($template, $data = null)" />
     <MESSAGE value="Setup Eloquent ORM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Eloquent ORM" />
+    <MESSAGE value="setup unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="16" selection-end="46" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1890" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="40035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="399" selection-end="399" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Console/SeedCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="25" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/Capsule/Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="20" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0" vertical-offset="1905" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="26" selection-start="5014" selection-end="5014" vertical-scroll-proportion="0.0" vertical-offset="3030" max-vertical-offset="3720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>
@@ -457,23 +1250,90 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="932" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/mysql.sql">
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+        <state line="4" column="24" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="681" selection-end="681" vertical-scroll-proportion="0.49001816" vertical-offset="0" max-vertical-offset="551" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="60" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="445" selection-end="445" vertical-scroll-proportion="-3.0833333" vertical-offset="181" max-vertical-offset="735">
+        <state line="17" column="40" selection-start="409" selection-end="409" vertical-scroll-proportion="-9.25" vertical-offset="33" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+    <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10380623" vertical-offset="0" max-vertical-offset="578">
+        <state line="22" column="58" selection-start="715" selection-end="715" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/app.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="15" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="537" selection-end="537" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="42" selection-end="42" vertical-scroll-proportion="0.033783782" vertical-offset="0" max-vertical-offset="888">
           <folding />
         </state>
       </provider>
