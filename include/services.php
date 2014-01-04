@@ -2,6 +2,7 @@
 
 $c['config'] = require dirname(__FILE__) . '/../config/config.php';
 
+/* MODELS */
 require_once $c['config']['path.models'] . 'Users.php';
 
 // Prepare app
@@ -9,6 +10,16 @@ $app = new \Slim\Slim(array(
     'templates.path' => $c['config']['path.templates'],
 ));
 
+$debug = ($c['config']['php.display_errors'] == true)?TRUE:FALSE;
+$app->config('debug', $debug);
+
+$app->error(function (\Exception $e) use ($app) {
+    $app->render('error.html');
+});
+
+$app->notFound(function () use ($app) {
+    $app->render('404.html');
+});
 
 // Create monolog logger and store logger in container as singleton
 // (Singleton resources retrieve the same log resource definition each time)

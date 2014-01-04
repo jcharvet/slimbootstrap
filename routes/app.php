@@ -24,11 +24,11 @@ $app->get(
 
 $app->get('/users', function () use ($app, $c) {
     // Sample log message
-   // $app->log->info("Slimboostrap '/users' route");
+    $app->log->info("Slimboostrap '/users' route");
 
     /* create a new user */
     $user = new Users();
-    $user->email = 'John@doe.com';
+    $user->emailw = 'John@doe.com';
     $user->password = 'test1234';
     $user->username = 'John';
     $user->save();
@@ -55,3 +55,4 @@ $app->get('/users', function () use ($app, $c) {
     $users = Users::with('user_profile')->where('id', '=', 1)->get();
     echo $users->toJson();
 });
+
