@@ -5,7 +5,6 @@
         "slim/views": "*",
         "twig/twig": "*",
         "illuminate/database": "*",
-        "dhorrigan/capsule": "*",
         "monolog/monolog": "1.*"
     },
 
